@@ -1,0 +1,7 @@
+package com.dipanshu.role_service.model;
+
+import com.dipanshu.common.controller.BaseEntity;
+
+public class Role extends BaseEntity {
+
+}

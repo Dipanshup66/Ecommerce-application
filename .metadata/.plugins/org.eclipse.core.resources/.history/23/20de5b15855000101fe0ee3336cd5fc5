@@ -1,0 +1,14 @@
+package com.dipanshu.user_service.repository.controller;
+
+import com.dipanshu.common.controller.BaseController;
+import com.dipanshu.common.service.BaseService;
+import com.dipanshu.user_service.model.User;
+
+public class UserController extends BaseController<User, Long> {
+
+	public UserController(BaseService<User, Long> service) {
+		super(service);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.dipanshu.role_service.service;
+
+import com.dipanshu.common.controller.BaseServiceImpl;
+import com.dipanshu.role_service.model.Role;
+import com.dipanshu.role_service.repository.RoleRepository;
+
+public class RoleServiceImpl extends BaseServiceImpl<Role, RoleRepository> implements RoleService {
+
+	private RoleRepository repository;
+
+	@Override
+	public Role getRoleByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Role createRole(Role role) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

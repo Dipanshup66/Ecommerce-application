@@ -1,0 +1,29 @@
+package com.dipanshu.common.model;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.PrePersist;
+
+@MappedSuperclass
+public class BaseEntity {
+	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private LocalDateTime createdAt;
+	private LocalDateTime updatedAt;
+	
+	@PrePersist
+	protected void onCreate() {
+		createdAt = updatedAt = LocalDateTime.now();
+	}
+	
+	protected void onUpdate() {
+		updatedAt = LocalDateTime.now();
+	}
+	
+
+}

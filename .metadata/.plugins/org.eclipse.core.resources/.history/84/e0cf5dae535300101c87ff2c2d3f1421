@@ -1,0 +1,7 @@
+package com.dipanshu.auth_service.model;
+
+import com.dipanshu.common.controller.BaseEntity;
+
+public class UserDto extends BaseEntity {
+
+}

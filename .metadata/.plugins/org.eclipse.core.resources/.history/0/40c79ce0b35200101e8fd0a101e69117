@@ -1,0 +1,12 @@
+package com.dipanshu.productservice.product_service.repository;
+
+import com.dipanshu.common.controller.BaseRepository;
+import com.dipanshu.productservice.product_service.model.Product;
+
+public interface ProductRepository extends BaseRepository<Product> {
+
+	public boolean existsBySku(String sku);
+
+	public boolean existsByName(String name);
+
+}

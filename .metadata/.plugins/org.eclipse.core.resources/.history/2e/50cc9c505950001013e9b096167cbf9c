@@ -1,0 +1,12 @@
+package com.dipanshu.userservice.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	public String helloUser() {
+		return "Hellow from User Servicve";
+	}
+
+}

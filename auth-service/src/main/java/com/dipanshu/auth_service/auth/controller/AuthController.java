@@ -1,0 +1,92 @@
+package com.dipanshu.auth_service.auth.controller;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dipanshu.auth_service.auth.form.AuthForm;
+import com.dipanshu.auth_service.auth.util.JwtUtil;
+import com.dipanshu.auth_service.model.UserClient;
+import com.dipanshu.auth_service.model.UserDto;
+import com.dipanshu.common.controller.GResponse;
+
+import org.springframework.security.core.Authentication;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("/auth")
+public class AuthController {
+
+	@Autowired
+	private UserClient userClient;
+
+	@Autowired
+	private JwtUtil jwtUtil;
+
+	@Autowired
+	public AuthController(UserClient userClient, JwtUtil jwtUtil) {
+		this.userClient = userClient;
+	}
+
+	public GResponse validate(BindingResult bindingResult) {
+
+		GResponse res = new GResponse(true);
+		System.out.println("validate out side");
+		if (bindingResult.hasErrors()) {
+			System.out.println("validate error");
+			res.setSuccess(false);
+
+			Map<String, String> errors = new HashMap<String, String>();
+
+			List<FieldError> list = bindingResult.getFieldErrors();
+
+			for (FieldError e : list) {
+				errors.put(e.getField(), e.getDefaultMessage());
+			}
+			;
+			res.addInputErrors(errors);
+		}
+
+		return res;
+
+	}
+
+	@PostMapping("/login")
+	public GResponse login(@RequestBody @Valid AuthForm form, BindingResult bindingResult) {
+		GResponse res = validate(bindingResult);
+
+		if (!res.isSuccess()) {
+			return res;
+		}
+		UserDto dto = form.getDto();
+		boolean userExists = userClient.verify(dto.getEmail(), dto.getPassword());
+		System.out.println("User exists: " + userExists);
+		if (!userExists) {
+			res.setSuccess(false);
+			res.addMessage("Invalid Email Id");
+			return res;
+		} else {
+			res.setSuccess(true);
+			String token = jwtUtil.generateToken(form.getEmail());
+			System.out.println("tokennnnn" + token);
+			res.addResult("token", token);
+			res.addMessage("Login successful");
+
+			return res;
+		}
+
+	}
+
+}

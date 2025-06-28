@@ -1,0 +1,13 @@
+package com.dipanshu.auth_service.model;
+
+public class UserDto {
+
+	private Long id;
+
+	private String email;
+
+	private String password;
+
+	private String name;
+
+}

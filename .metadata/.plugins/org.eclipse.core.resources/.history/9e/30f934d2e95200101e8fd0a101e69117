@@ -1,0 +1,56 @@
+package com.dipanshu.user_service.auth.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dipanshu.common.controller.BaseController;
+import com.dipanshu.common.controller.GResponse;
+import com.dipanshu.user_service.auth.dto.LoginRequest;
+import com.dipanshu.user_service.auth.util.JwtUtil;
+import com.dipanshu.user_service.model.User;
+import com.dipanshu.user_service.repository.UserRepository;
+import com.dipanshu.user_service.service.UserService;
+
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("/auth")
+public class AuthController extends BaseController<LoginRequest, User, UserService> {
+
+	private UserService userService;
+
+	public AuthController(UserService baseservice) {
+		super(baseservice);
+	}
+
+	@Autowired
+	private JwtUtil jwtUtil;
+
+	@PostMapping("login")
+	public GResponse login(@RequestBody @Valid LoginRequest loginRequest, BindingResult bindingResult) {
+		GResponse res = validate(bindingResult);
+
+		if (!res.isSuccess()) {
+			return res;
+		}
+		User user = (User) loginRequest.getDto();
+		User dto = userService.authenticate(user.getEmail(), user.getPassword());
+		if (dto == null) {
+			res.setSuccess(false);
+			res.addMessage("Invalid Email Id");
+		} else {
+			res.setSuccess(true);
+			res.addData(dto);
+			String token = jwtUtil.generateToken(dto.getEmail());
+			res.addResult("token", token);
+
+		}
+		return res;
+
+	}
+
+}

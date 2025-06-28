@@ -1,0 +1,52 @@
+package com.dipanshu.user_service.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.dipanshu.common.controller.BaseServiceImpl;
+import com.dipanshu.user_service.model.User;
+import com.dipanshu.user_service.repository.UserRepository;
+
+@Service
+@Transactional
+public class UserServiceImpl extends BaseServiceImpl<User, UserRepository> implements UserService {
+
+	@Autowired
+	private UserRepository repository;
+
+	@Override
+	public void addUser(User user) {
+		if (repository.existsByEmail(user.getEmail())) {
+			throw new RuntimeException("Email already exists");
+		}
+		repository.add(user);
+
+	}
+
+	@Override
+	public User authenticate(String email, String password) {
+		User dto = findByLoginId(email);
+		if (dto != null && dto.getPassword().equals(password)) {
+			return dto;
+		}
+
+		return null;
+	}
+
+	@Override
+	public User findByLoginId(String email) {
+		return repository.findByUniquekey("email", email);
+	}
+
+	@Override
+	public String registerUser(User user) {
+		if (userRepository.existsByUsername(user.getUsername())) {
+			return "Username already taken";
+		}
+		user.setPassword(passwordEncoder.encode(user.getPassword()));
+		userRepository.save(user);
+		return "User registered successfully";
+	}
+
+}

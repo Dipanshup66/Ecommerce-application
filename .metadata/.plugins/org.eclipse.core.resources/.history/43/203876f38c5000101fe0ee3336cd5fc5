@@ -1,0 +1,39 @@
+package com.dipanshu.user_service.model;
+
+import com.dipanshu.common.model.BaseEntity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+
+@Entity
+@Table(name = "users")
+public class User extends BaseEntity {
+
+	@NotBlank(message = "Name is mandatory")
+	private String name;
+
+	@NotBlank(message = "Email is mandatory")
+	@Email(message = "Invalid email format")
+	@Pattern(regexp = "^[\\w-]+(?:\\.[\\w-]+)*@(?:[\\w-]+\\.)+[a-zA-Z]{2,7}$\r\n", message = "LoginId Is Dose Not Match This Formate")
+	private String email;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+}

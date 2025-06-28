@@ -1,0 +1,11 @@
+package com.dipanshu.user_service.repository;
+
+import org.springframework.stereotype.Repository;
+
+import com.dipanshu.common.controller.BaseRepository;
+import com.dipanshu.user_service.model.User;
+
+@Repository
+public interface UserRepository extends BaseRepository<User, Long> {
+
+}

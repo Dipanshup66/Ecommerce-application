@@ -1,0 +1,29 @@
+package com.dipanshu.productservice.product_service.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.dipanshu.common.controller.BaseServiceImpl;
+import com.dipanshu.productservice.product_service.model.Product;
+import com.dipanshu.productservice.product_service.repository.ProductRepository;
+
+@Service
+@Transactional
+public class ProductServiceImpl extends BaseServiceImpl<Product, ProductRepository> implements ProductService {
+
+	@Autowired
+	public ProductRepository repository;
+
+	@Override
+	public void addProduct(Product product) {
+		if (repository.existsBySku(product.getSku())) {
+			throw new RuntimeException("SKU already exists");
+		}
+		if (repository.existsByName(product.getName())) {
+			throw new RuntimeException("Product name already exists");
+		}
+		repository.add(product);
+	}
+
+}

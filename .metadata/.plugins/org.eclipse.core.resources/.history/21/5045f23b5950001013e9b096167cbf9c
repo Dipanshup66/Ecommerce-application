@@ -1,0 +1,5 @@
+package com.dipanshu.userservice.controller;
+
+public class UserController {
+
+}

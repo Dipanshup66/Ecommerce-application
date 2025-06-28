@@ -1,0 +1,12 @@
+package com.dipanshu.user_service.feignclient;
+
+@Component
+public class FeignClientInterceptor implements RequestInterceptor {
+
+	@Override
+	public void apply(RequestTemplate template) {
+		// yahan hardcoded mat rakhna, dynamically nikal lena
+		String token = "Bearer your_jwt_token";
+		template.header("Authorization", token);
+	}
+}

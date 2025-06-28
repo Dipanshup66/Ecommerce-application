@@ -1,0 +1,6 @@
+package com.dipanshu.common.service;
+
+public interface BaseService<T, ID> {
+	public T save(T entity);
+
+}

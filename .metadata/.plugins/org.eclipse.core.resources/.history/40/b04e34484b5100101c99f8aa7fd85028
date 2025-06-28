@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                            http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>com.dipanshu</groupId>
+   <artifactId>common</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+   <packaging>jar</packaging>
+   <name>common</name>
+   <url>http://maven.apache.org</url>
+   <properties>
+       <java.version>17</java.version>
+       <spring-boot.version>3.2.5</spring-boot.version>
+   </properties>
+   <dependencies>
+       <!-- Spring Boot Starter for JPA -->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-data-jpa</artifactId>
+       </dependency>
+       <!-- Spring Boot Starter for basic Spring features -->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter</artifactId>
+       </dependency>
+       <!-- Hibernate Validator -->
+       <dependency>
+           <groupId>org.hibernate.validator</groupId>
+           <artifactId>hibernate-validator</artifactId>
+           <version>8.0.1.Final</version>
+       </dependency>
+       <!-- Jakarta Bean Validation API -->
+       <dependency>
+           <groupId>jakarta.validation</groupId>
+           <artifactId>jakarta.validation-api</artifactId>
+           <version>3.0.2</version>
+       </dependency>
+       <!-- Spring Web (only if needed in common utils or controllers) -->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-web</artifactId>
+       </dependency>
+       <!-- JUnit for Testing -->
+       <dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>3.8.1</version>
+           <scope>test</scope>
+       </dependency>
+   </dependencies>
+   <build>
+       <plugins>
+           <!-- Spring Boot Maven Plugin -->
+           <plugin>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-maven-plugin</artifactId>
+               <version>${spring-boot.version}</version>
+           </plugin>
+       </plugins>
+   </build>
+</project>

@@ -1,0 +1,9 @@
+package com.dipanshu.role_service.service;
+
+import com.dipanshu.common.controller.BaseServiceImpl;
+import com.dipanshu.role_service.model.Role;
+import com.dipanshu.role_service.repository.RoleRepository;
+
+public class RoleServiceImpl extends BaseServiceImpl<Role, RoleRepository> implements RoleService {
+
+}

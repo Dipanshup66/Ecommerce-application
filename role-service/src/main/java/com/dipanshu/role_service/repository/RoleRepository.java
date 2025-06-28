@@ -1,0 +1,10 @@
+package com.dipanshu.role_service.repository;
+
+import com.dipanshu.common.controller.BaseRepository;
+import com.dipanshu.role_service.model.Role;
+
+public interface RoleRepository extends BaseRepository<Role> {
+
+	public Role findByName(String name);
+
+}

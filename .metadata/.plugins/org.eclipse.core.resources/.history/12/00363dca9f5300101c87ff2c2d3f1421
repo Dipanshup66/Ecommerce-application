@@ -1,0 +1,7 @@
+package com.dipanshu.user_service.feignclient;
+
+@FeignClient(name = "role-service", url = "${ROLE_SERVICE_URL}")
+public interface RoleClient {
+	@GetMapping("/roles/{name}")
+	RoleDto getRoleByName(@PathVariable String name);
+}

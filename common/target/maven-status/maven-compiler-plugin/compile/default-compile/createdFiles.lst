@@ -1,0 +1,8 @@
+com\dipanshu\common\controller\BaseRepository.class
+com\dipanshu\common\controller\BaseController.class
+com\dipanshu\common\controller\BaseForm.class
+com\dipanshu\common\controller\BaseService.class
+com\dipanshu\common\controller\BaseServiceImpl.class
+com\dipanshu\common\controller\BaseRepositoryImpl.class
+com\dipanshu\common\controller\GResponse.class
+com\dipanshu\common\controller\BaseEntity.class

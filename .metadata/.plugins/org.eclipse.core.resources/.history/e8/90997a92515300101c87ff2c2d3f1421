@@ -1,0 +1,53 @@
+package com.dipanshu.auth_service.auth.form;
+
+import com.dipanshu.common.controller.BaseEntity;
+import com.dipanshu.common.controller.BaseForm;
+import com.dipanshu.user_service.model.User;
+
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
+public class AuthForm extends BaseForm {
+
+	@NotBlank(message = "Email cannot be blank")
+	@Email(message = "Invalid email format")
+	private String email;
+
+	@NotBlank(message = "password cannot be blank")
+	private String password;
+
+	public AuthForm() {
+
+	}
+
+	public AuthForm(String email, String password) {
+		super();
+		this.email = email;
+		this.password = password;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	@Override
+	public BaseEntity getDto() {
+		User dto = initEntity(new User());
+		dto.setEmail(email);
+		dto.setPassword(password);
+		return dto;
+	}
+
+}

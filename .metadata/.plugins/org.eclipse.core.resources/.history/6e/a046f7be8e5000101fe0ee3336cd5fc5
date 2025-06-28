@@ -1,0 +1,5 @@
+package com.dipanshu.common.controller;
+
+public class BaseController<T, ID> {
+
+}

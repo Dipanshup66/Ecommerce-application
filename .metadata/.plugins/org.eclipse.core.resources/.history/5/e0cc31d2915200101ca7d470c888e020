@@ -1,0 +1,9 @@
+package com.dipanshu.productservice.product_service.service;
+
+import com.dipanshu.common.controller.BaseServiceImpl;
+import com.dipanshu.productservice.product_service.model.Product;
+import com.dipanshu.productservice.product_service.repository.ProductRepository;
+
+public class ProductServiceImpl extends BaseServiceImpl<Product, ProductRepository> implements ProductService {
+	
+}

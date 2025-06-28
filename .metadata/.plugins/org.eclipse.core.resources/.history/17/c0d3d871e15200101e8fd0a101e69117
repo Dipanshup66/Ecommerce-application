@@ -1,0 +1,5 @@
+package com.dipanshu.user_service.auth.dto;
+
+public class LoginRequest {
+
+}

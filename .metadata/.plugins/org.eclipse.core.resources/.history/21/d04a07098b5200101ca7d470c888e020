@@ -1,0 +1,23 @@
+package com.dipanshu.productservice.product_service.model;
+
+import java.math.BigDecimal;
+
+import com.dipanshu.common.controller.BaseEntity;
+
+public class Product extends BaseEntity {
+
+	private String name;
+
+	private String description;
+
+	private BigDecimal price;
+
+	private int stock;
+
+	private String brand;
+
+	private Long categoryId;
+
+	private String imageUrl;
+
+}

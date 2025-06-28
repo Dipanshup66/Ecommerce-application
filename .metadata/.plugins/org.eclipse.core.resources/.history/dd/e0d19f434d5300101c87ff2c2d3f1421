@@ -1,0 +1,5 @@
+package com.dipanshu.auth_service.auth.util;
+
+public class JwtUtil {
+
+}

@@ -1,0 +1,5 @@
+package com.dipanshu.user_service.repository;
+
+public class UserRepository {
+
+}

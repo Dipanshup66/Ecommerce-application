@@ -1,0 +1,21 @@
+package com.dipanshu.role_service.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.dipanshu.common.controller.BaseController;
+import com.dipanshu.role_service.form.RoleForm;
+import com.dipanshu.role_service.model.Role;
+import com.dipanshu.role_service.service.RoleService;
+
+public class RoleController extends BaseController<RoleForm, Role, RoleService> {
+
+	private final RoleService roleService;
+
+	@Autowired
+	public RoleController(RoleService roleService) {
+		super(roleService);
+		this.roleService = roleService;
+		// TODO Auto-generated constructor stub
+	}
+
+}

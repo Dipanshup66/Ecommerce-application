@@ -1,0 +1,21 @@
+package com.dipanshu.productservice.product_service.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dipanshu.common.controller.BaseController;
+import com.dipanshu.productservice.product_service.form.ProductForm;
+import com.dipanshu.productservice.product_service.model.Product;
+import com.dipanshu.productservice.product_service.service.ProductService;
+
+@RestController
+@RequestMapping("/products")
+public class ProductController extends BaseController<ProductForm, Product, ProductService>{
+
+	@GetMapping("/hello")
+	public String helloProduct() {
+		return "hello from product";
+	}
+
+}

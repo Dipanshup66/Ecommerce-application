@@ -1,0 +1,5 @@
+package com.dipanshu.role_service.service;
+
+public interface RoleService {
+
+}

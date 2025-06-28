@@ -1,0 +1,10 @@
+package com.dipanshu.role_service.controller;
+
+import com.dipanshu.common.controller.BaseController;
+import com.dipanshu.role_service.form.RoleForm;
+import com.dipanshu.role_service.model.Role;
+import com.dipanshu.role_service.service.RoleService;
+
+public class RoleController extends BaseController<RoleForm, Role, RoleService> {
+
+}

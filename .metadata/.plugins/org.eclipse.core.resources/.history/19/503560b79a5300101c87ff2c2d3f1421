@@ -1,0 +1,16 @@
+package com.dipanshu.user_service.service;
+
+import com.dipanshu.common.controller.BaseService;
+import com.dipanshu.user_service.model.User;
+
+public interface UserService extends BaseService<User> {
+
+	public void addUser(User user);
+
+	public User authenticate(String email, String password);
+
+	public User findByLoginId(String login);
+	
+	public String registerUser(User user)
+
+}

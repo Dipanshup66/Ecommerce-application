@@ -1,0 +1,102 @@
+package com.dipanshu.common.controller;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import jakarta.validation.Valid;
+
+public class BaseController<F extends BaseForm, T extends BaseEntity, S extends BaseService<T>> {
+
+	protected final S baseService;
+
+	public BaseController(S baseservice) {
+		this.baseService = baseservice;
+	}
+
+	public GResponse validate(BindingResult bindingResult) {
+
+		GResponse res = new GResponse(true);
+
+		if (bindingResult.hasErrors()) {
+			System.out.println("validate error");
+			res.setSuccess(false);
+
+			Map<String, String> errors = new HashMap<String, String>();
+
+			List<FieldError> list = bindingResult.getFieldErrors();
+
+			list.forEach(e -> {
+				errors.put(e.getField(), e.getDefaultMessage());
+			});
+			res.addInputErrors(errors);
+		}
+
+		return res;
+
+	}
+
+	@PostMapping("/save")
+	public GResponse save(@RequestBody @Valid F form, BindingResult bindingResult) {
+
+		GResponse res = validate(bindingResult);
+		System.out.println("validation");
+		System.out.println(res.isSuccess() + "validation ky");
+		if (!res.isSuccess()) {
+			return res;
+		}
+		T dto = (T) form.getDto();
+
+		if (dto.getId() != null && dto.getId() > 0) {
+
+			baseService.update(dto);
+			res.addMessage("DATA UPDATED SUCCESSFULLY.....>>>>>>>>!!!!");
+		} else {
+			baseService.add(dto);
+			res.addData(dto.getId());
+			res.addMessage("DATAB ADDEDD>>> SUCCESSFULLY>>>>>?>>>>!!!!!!");
+		}
+		return res;
+	}
+
+	@PostMapping("/search")
+	public GResponse search(@RequestBody F form) {
+		GResponse res = new GResponse();
+		T dto = (T) form.getDto();
+		List list = baseService.search(dto, 0, 0);
+		if (list.size() == 0) {
+			res.addMessage("result not found....");
+		} else {
+			res.addData(list);
+		}
+		return res;
+
+	}
+
+	@GetMapping("/get/{id}")
+	public GResponse get(@PathVariable long id) {
+
+		GResponse res = new GResponse();
+		T dto = baseService.findById(id);
+
+		res.addData(dto);
+		return res;
+
+	}
+
+	@GetMapping("/delete/{id}")
+	public GResponse delete(@PathVariable long id) {
+		GResponse res = new GResponse();
+		baseService.delete(id);
+		res.addMessage("data deleted successfully");
+		return res;
+	}
+
+}

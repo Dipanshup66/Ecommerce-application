@@ -1,0 +1,8 @@
+package com.dipanshu.common.dto;
+
+public class RoleDto {
+	private Long id;
+	private String name;
+
+	// constructor, getters, setters
+}

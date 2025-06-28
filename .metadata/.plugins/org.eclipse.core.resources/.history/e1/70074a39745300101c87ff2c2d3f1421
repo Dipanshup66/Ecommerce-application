@@ -1,0 +1,21 @@
+package com.dipanshu.auth_service.auth.config;
+
+@Component
+public class FeignClientInterceptor implements RequestInterceptor {
+
+	@Override
+	public void apply(RequestTemplate template) {
+		String token = getCurrentToken(); // apna method
+		if (token != null) {
+			template.header("Authorization", "Bearer " + token);
+		}
+	}
+
+	private String getCurrentToken() {
+		var context = SecurityContextHolder.getContext();
+		if (context != null && context.getAuthentication() != null) {
+			return (String) context.getAuthentication().getCredentials();
+		}
+		return null;
+	}
+}

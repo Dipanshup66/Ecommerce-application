@@ -1,0 +1,7 @@
+package com.dipanshu.productservice.product_service.form;
+
+import com.dipanshu.common.controller.BaseForm;
+
+public class ProductForm extends BaseForm {
+
+}
