@@ -29,8 +29,7 @@ public class RoleRepositoryImpl extends BaseRepositoryImpl<Role> implements Role
 	@Override
 	public Role findByName(String name) {
 		String jpql = "SELECT u FROM Role u WHERE u.name = :name";
-		Long count = entityManager.createQuery(jpql, Long.class).setParameter("name", name).getSingleResult();
-		return entityManager.find(Role.class, count);
+		return entityManager.createQuery(jpql, Role.class).setParameter("name", name).getSingleResult();
 	}
 
 }

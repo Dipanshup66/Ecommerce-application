@@ -4,6 +4,7 @@
 <aop-project name="order-service"/>
 <aop-project name="common"/>
 <aop-project name="discovery-server"/>
+<aop-project name="role-service"/>
 <aop-project name="payment-service"/>
 <aop-project name="user-service"/>
 <aop-project name="inventory-service"/>

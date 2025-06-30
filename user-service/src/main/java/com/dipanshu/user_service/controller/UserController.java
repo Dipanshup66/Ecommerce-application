@@ -75,6 +75,7 @@ public class UserController extends BaseController<UserForm, User, UserService> 
 		Set<String> roles = new HashSet<String>();
 		roles.add(defultRole.getName());
 		dto.setRoles(roles);
+
 		try {
 			userService.addUser(dto);
 			res.setSuccess(true);

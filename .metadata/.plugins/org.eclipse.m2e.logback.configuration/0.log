@@ -8648,3 +8648,321 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2025-06-29 00:27:12,377 [Worker-14: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-06-29 00:27:12,383 [Worker-14: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-06-29 00:27:12,386 [Worker-14: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-29 03:21:25,101 [Worker-44: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 03:21:25,275 [Worker-44: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 03:21:25,279 [Worker-44: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-29 03:22:11,288 [Worker-45: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 03:22:11,363 [Worker-45: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 03:22:11,367 [Worker-45: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-29 03:22:58,841 [Worker-43: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-29 03:22:59,280 [Worker-43: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:00,338 [Worker-43: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:01,546 [Worker-43: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:20,758 [Worker-47: Launching user-service - UserServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:22,042 [Worker-47: Launching user-service - UserServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:23,189 [Worker-47: Launching user-service - UserServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:46,113 [Worker-44: Launching role-service - RoleServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:46,690 [Worker-44: Launching role-service - RoleServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:23:47,107 [Worker-44: Launching role-service - RoleServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:24:03,524 [Worker-45: Launching product-service - ProductServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:24:05,218 [Worker-45: Launching product-service - ProductServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:24:06,234 [Worker-45: Launching product-service - ProductServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-29 03:32:47,709 [Worker-53: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 03:32:47,889 [Worker-53: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 03:32:47,902 [Worker-53: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\role-service\src\test\resources
+2025-06-29 03:32:56,409 [Worker-56: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 03:32:56,409 [Worker-56: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 03:32:56,413 [Worker-56: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 03:36:41,045 [Worker-44: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 03:36:41,119 [Worker-44: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 03:36:41,135 [Worker-44: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-29 03:52:50,854 [Worker-58: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 03:52:50,939 [Worker-58: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 03:52:50,945 [Worker-58: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-29 04:09:44,386 [Worker-62: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:role-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\role-service\pom.xml.
+2025-06-29 04:09:46,461 [Worker-62: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-29 04:09:49,125 [Worker-62: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:09:49,127 [Worker-62: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:09:49,135 [Worker-62: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\role-service\src\test\resources
+2025-06-29 04:09:54,811 [Worker-63: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-29 04:09:54,855 [Worker-63: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:09:54,868 [Worker-63: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:09:54,874 [Worker-63: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\role-service\src\test\resources
+2025-06-29 04:10:07,999 [Worker-58: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-29 04:11:00,213 [Worker-60: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-29 04:11:00,270 [Worker-60: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:11:00,514 [Worker-60: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:11:00,520 [Worker-60: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:12:01,273 [Worker-63: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:12:01,549 [Worker-63: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:12:01,555 [Worker-63: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:12:03,096 [Worker-64: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:12:03,311 [Worker-64: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:12:03,320 [Worker-64: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:28:59,231 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:28:59,269 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:28:59,273 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:29:29,959 [Worker-60: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:29:30,687 [Worker-60: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:29:30,793 [Worker-60: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:38:56,919 [Worker-65: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:38:56,930 [Worker-65: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:38:56,951 [Worker-65: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:39:11,835 [Worker-67: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:39:11,837 [Worker-67: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:39:11,845 [Worker-67: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:45:45,142 [Worker-71: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 04:45:45,154 [Worker-71: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 04:45:45,162 [Worker-71: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 04:45:51,637 [Worker-71: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-29 04:45:51,664 [Worker-71: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:45:51,691 [Worker-71: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:45:51,695 [Worker-71: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-29 04:58:26,914 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 04:58:26,980 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:58:26,983 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-29 04:59:07,636 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:07,641 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:07,645 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:59:14,690 [Worker-76: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:14,691 [Worker-76: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:14,696 [Worker-76: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:59:27,625 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:27,626 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:27,628 [Worker-69: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 04:59:32,339 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:32,340 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 04:59:32,342 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 05:00:07,631 [Worker-75: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:00:07,633 [Worker-75: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:00:07,640 [Worker-75: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 05:02:12,535 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:02:12,538 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:02:12,544 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:06:52,606 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 05:06:52,693 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:06:52,740 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-29 05:07:07,501 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 05:07:07,550 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:07:07,557 [Worker-78: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-29 05:12:17,271 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:12:17,285 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:12:17,289 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:12:26,696 [Worker-84: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:12:26,697 [Worker-84: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:12:26,701 [Worker-84: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:14:23,340 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:14:23,352 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:14:23,355 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 05:18:45,865 [Worker-79: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:18:45,881 [Worker-79: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:18:45,887 [Worker-79: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:22:11,650 [Worker-85: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:22:11,661 [Worker-85: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:22:11,666 [Worker-85: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:22:28,874 [Worker-87: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:22:28,876 [Worker-87: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:22:28,887 [Worker-87: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:30:35,609 [Worker-79: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:30:35,613 [Worker-79: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:30:35,617 [Worker-79: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:32:58,046 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:32:58,062 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:32:58,075 [Worker-77: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 05:33:30,803 [Worker-92: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:33:30,804 [Worker-92: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:33:30,811 [Worker-92: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 05:34:43,895 [Worker-93: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-29 05:34:43,991 [Worker-93: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:34:43,995 [Worker-93: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-29 05:39:00,960 [Worker-91: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:39:00,974 [Worker-91: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-29 05:39:00,978 [Worker-91: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-29 05:39:49,541 [Worker-91: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:39:49,542 [Worker-91: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:39:49,546 [Worker-91: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-29 05:40:19,204 [Worker-92: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:40:19,221 [Worker-92: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-29 05:40:19,225 [Worker-92: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-30 17:18:09,268 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-30 17:21:15,162 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-06-30 17:21:15,232 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:15,242 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-30 17:21:16,338 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:16,384 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:16,387 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-30 17:21:17,940 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:21:17,940 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:21:17,942 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-30 17:21:18,486 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:21:18,486 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:21:18,488 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-30 17:21:20,930 [Worker-13: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:21:20,985 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:21,016 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:21,023 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\auth-service\src\test\resources
+2025-06-30 17:21:21,241 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:21,242 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:21,245 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\auth-service\src\test\resources
+2025-06-30 17:21:23,775 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:23,781 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:23,784 [Worker-15: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\discovery-server\src\test\resources
+2025-06-30 17:21:24,062 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:24,063 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:24,067 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\discovery-server\src\test\resources
+2025-06-30 17:21:26,159 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:26,241 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:26,245 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\inventory-service\src\test\resources
+2025-06-30 17:21:26,510 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:26,522 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:26,524 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\inventory-service\src\test\resources
+2025-06-30 17:21:28,528 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:28,539 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:28,544 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\order-service\src\test\resources
+2025-06-30 17:21:28,764 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:28,765 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:28,767 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\order-service\src\test\resources
+2025-06-30 17:21:30,693 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:30,722 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:30,728 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\payment-service\src\test\resources
+2025-06-30 17:21:30,957 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:30,957 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:30,958 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\payment-service\src\test\resources
+2025-06-30 17:21:32,511 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:32,572 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:32,574 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\permission-service\src\test\resources
+2025-06-30 17:21:32,765 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:32,765 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:32,768 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\permission-service\src\test\resources
+2025-06-30 17:21:35,045 [Worker-13: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:21:35,118 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:35,153 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:35,155 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-30 17:21:36,770 [Worker-13: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:21:36,782 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:36,840 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:36,844 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\role-service\src\test\resources
+2025-06-30 17:21:39,332 [Worker-13: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:21:39,345 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:21:39,387 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:39,391 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-30 17:21:40,523 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:40,525 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:21:40,526 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-30 17:22:11,542 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:22:11,543 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:22:11,544 [Worker-1: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-30 17:24:31,043 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-06-30 17:24:41,693 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:api-gateway:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\api-gateway\pom.xml.
+2025-06-30 17:24:43,434 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:auth-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\auth-service\pom.xml.
+2025-06-30 17:24:44,217 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:24:45,196 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:common:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\common\pom.xml.
+2025-06-30 17:24:46,330 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:discovery-server:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\discovery-server\pom.xml.
+2025-06-30 17:24:47,523 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:inventory-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\inventory-service\pom.xml.
+2025-06-30 17:24:48,256 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:order-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\order-service\pom.xml.
+2025-06-30 17:24:48,932 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:payment-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\payment-service\pom.xml.
+2025-06-30 17:24:49,729 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:permission-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\permission-service\pom.xml.
+2025-06-30 17:24:50,399 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu.productservice:product-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\product-service\pom.xml.
+2025-06-30 17:24:50,634 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:24:51,272 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:role-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\role-service\pom.xml.
+2025-06-30 17:24:51,409 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:24:51,996 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dipanshu:user-service:0.0.1-SNAPSHOT @ C:\Users\dipan\Desktop\ecommerce-app\user-service\pom.xml.
+2025-06-30 17:24:52,244 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:24:58,829 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-06-30 17:24:58,830 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-06-30 17:24:58,831 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-06-30 17:24:58,832 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-06-30 17:24:59,373 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/main/java
+2025-06-30 17:24:59,374 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-06-30 17:24:59,375 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-06-30 17:24:59,377 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/test/java
+2025-06-30 17:24:59,940 [Worker-15: Updating Maven Project] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2025-06-30 17:24:59,942 [Worker-15: Updating Maven Project] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2025-06-30 17:24:59,944 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /common/src/main/java
+2025-06-30 17:24:59,945 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /common/src/test/java
+2025-06-30 17:25:03,543 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-server/src/main/java
+2025-06-30 17:25:03,544 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-server/src/main/resources
+2025-06-30 17:25:03,545 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-server/src/main/resources
+2025-06-30 17:25:03,546 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-server/src/test/java
+2025-06-30 17:25:04,409 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /inventory-service/src/main/java
+2025-06-30 17:25:04,410 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /inventory-service/src/main/resources
+2025-06-30 17:25:04,411 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /inventory-service/src/main/resources
+2025-06-30 17:25:04,412 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /inventory-service/src/test/java
+2025-06-30 17:25:05,149 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-06-30 17:25:05,150 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-06-30 17:25:05,150 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-06-30 17:25:05,151 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-06-30 17:25:05,808 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /payment-service/src/main/java
+2025-06-30 17:25:05,850 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /payment-service/src/main/resources
+2025-06-30 17:25:05,852 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /payment-service/src/main/resources
+2025-06-30 17:25:05,853 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /payment-service/src/test/java
+2025-06-30 17:25:06,671 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /permission-service/src/main/java
+2025-06-30 17:25:06,673 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /permission-service/src/main/resources
+2025-06-30 17:25:06,675 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /permission-service/src/main/resources
+2025-06-30 17:25:06,676 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /permission-service/src/test/java
+2025-06-30 17:25:07,267 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2025-06-30 17:25:07,268 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-06-30 17:25:07,269 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-06-30 17:25:07,270 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2025-06-30 17:25:08,002 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /role-service/src/main/java
+2025-06-30 17:25:08,003 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /role-service/src/main/resources
+2025-06-30 17:25:08,003 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /role-service/src/main/resources
+2025-06-30 17:25:08,004 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /role-service/src/test/java
+2025-06-30 17:25:08,734 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-service/src/main/java
+2025-06-30 17:25:08,735 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-service/src/main/resources
+2025-06-30 17:25:08,736 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-service/src/main/resources
+2025-06-30 17:25:08,736 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-service/src/test/java
+2025-06-30 17:25:12,610 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 41 sec
+2025-06-30 17:25:18,330 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-06-30 17:25:18,359 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:18,361 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\api-gateway\src\test\resources
+2025-06-30 17:25:20,525 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:25:20,525 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:25:20,528 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-30 17:25:23,998 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:25:24,035 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:24,039 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:24,041 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\auth-service\src\test\resources
+2025-06-30 17:25:26,278 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:26,282 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:26,285 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\discovery-server\src\test\resources
+2025-06-30 17:25:28,951 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:28,956 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:28,958 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\inventory-service\src\test\resources
+2025-06-30 17:25:31,660 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:31,663 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:31,666 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\order-service\src\test\resources
+2025-06-30 17:25:34,444 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:34,449 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:34,452 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\payment-service\src\test\resources
+2025-06-30 17:25:36,805 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:36,810 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:36,815 [Worker-12: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\permission-service\src\test\resources
+2025-06-30 17:25:42,468 [Worker-23: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:25:42,494 [Worker-23: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:42,504 [Worker-23: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:42,507 [Worker-23: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\product-service\src\test\resources
+2025-06-30 17:25:45,005 [Worker-13: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:25:45,020 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:45,057 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:45,059 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\role-service\src\test\resources
+2025-06-30 17:25:48,052 [Worker-13: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:25:48,064 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 17:25:48,069 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 17:25:48,071 [Worker-13: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\user-service\src\test\resources
+2025-06-30 17:25:57,675 [Worker-10: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:25:57,675 [Worker-10: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\main\resources
+2025-06-30 17:25:57,678 [Worker-10: Building workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dipan\Desktop\ecommerce-app\common\src\test\resources
+2025-06-30 17:29:49,780 [Worker-25: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:29:50,112 [Worker-25: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:29:50,923 [Worker-25: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:29:51,562 [Worker-25: Launching auth-service - AuthServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:30:25,204 [Worker-24: Launching user-service - UserServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:30:25,873 [Worker-24: Launching user-service - UserServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:30:26,482 [Worker-24: Launching user-service - UserServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:30:45,381 [Worker-25: Launching role-service - RoleServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:30:45,853 [Worker-25: Launching role-service - RoleServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:30:46,219 [Worker-25: Launching role-service - RoleServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:31:25,439 [Worker-28: Launching product-service - ProductServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier  to /common/target/classes
+2025-06-30 17:31:25,842 [Worker-28: Launching product-service - ProductServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
+2025-06-30 17:31:26,515 [Worker-28: Launching product-service - ProductServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/common: com.dipanshu:common:0.0.1-SNAPSHOT with classifier null to /common/target/classes
