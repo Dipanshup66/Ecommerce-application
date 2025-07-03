@@ -1,8 +1,0 @@
-package com.dipanshu.productservice.product_service.repository;
-
-import com.dipanshu.common.controller.BaseRepositoryImpl;
-import com.dipanshu.productservice.product_service.model.Product;
-
-public class ProductRepositoryImpl extends BaseRepositoryImpl<Product> {
-
-}

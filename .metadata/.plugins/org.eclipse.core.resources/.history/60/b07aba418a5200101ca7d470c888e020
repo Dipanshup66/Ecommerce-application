@@ -1,7 +1,0 @@
-package com.dipanshu.productservice.product_service.model;
-
-import com.dipanshu.common.controller.BaseEntity;
-
-public class Product extends BaseEntity {
-
-}

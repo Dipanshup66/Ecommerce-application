@@ -1,8 +1,0 @@
-package com.dipanshu.user_service.repository;
-
-import com.dipanshu.common.controller.BaseRepositoryImpl;
-import com.dipanshu.user_service.model.User;
-
-public class UserRepositoryImpl extends BaseRepositoryImpl<User> implements UserRepository {
-
-}

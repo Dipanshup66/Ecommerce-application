@@ -1,8 +1,0 @@
-package com.dipanshu.user_service.model;
-
-import jakarta.persistence.Entity;
-
-@Entity
-public class User {
-
-}

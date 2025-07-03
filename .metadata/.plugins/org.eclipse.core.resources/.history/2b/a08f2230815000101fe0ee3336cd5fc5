@@ -1,5 +1,0 @@
-package com.dipanshu.common.service;
-
-public class BaseService<T, ID> {
-
-}

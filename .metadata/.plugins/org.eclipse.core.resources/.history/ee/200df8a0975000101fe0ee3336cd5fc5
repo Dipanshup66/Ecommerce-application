@@ -1,5 +1,0 @@
-package com.dipanshu.common.controller;
-
-public class BaseServiceImpl<T extends BaseEntity, D extends BaseRepository<T>> implements BaseService<T> {
-
-}

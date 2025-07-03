@@ -1,6 +1,0 @@
-package com.dipanshu.common.controller;
-
-public interface BaseRepository {
-	
-
-}

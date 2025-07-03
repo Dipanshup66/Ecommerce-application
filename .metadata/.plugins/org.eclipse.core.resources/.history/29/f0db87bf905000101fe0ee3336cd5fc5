@@ -1,7 +1,0 @@
-package com.dipanshu.user_service.form;
-
-import com.dipanshu.common.controller.BaseForm;
-
-public class UserForm extends BaseForm {
-
-}

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.dipanshu.common.controller.BaseServiceImpl"/>
     <fullyQualifiedTypeName name="com.dipanshu.productservice.product_service.service.ProductService"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="com.dipanshu.role_service.model.Role"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.models.servers.Server"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,0 @@
-package com.dipanshu.common.controller;
-
-import java.util.List;
-
-public class BaseServiceImpl<T extends BaseEntity, D extends BaseRepository<T>> implements BaseService<T> {
-
-}

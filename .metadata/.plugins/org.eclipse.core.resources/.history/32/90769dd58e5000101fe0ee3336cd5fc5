@@ -1,5 +1,0 @@
-package com.dipanshu.common.controller;
-
-public class BaseController<F extends BaseForm, T extends BaseEntity, S extends BaseService<T, ID>> {
-
-}
